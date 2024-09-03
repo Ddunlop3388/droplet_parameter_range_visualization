@@ -11,10 +11,14 @@ dia_um = [2.28e3, 20, 52, 111, 236, 420, 2e3, 200, 200, 1e3, 50] # um
 behavior = ['fr', 'fr', 'fr', 'spl', 'spl', '.', '.',  '.', '.', '.', '.']
 
 # velocities, diameters, and studies which recorded splashing behavior
-vel_splash_ms = [20] # m/s
-dia_splash_um = [420] #um
+vel_splash_ms = [20, 20, 40, 4.09, 500] # m/s
+dia_splash_um = [420, 550, 550, 2630, 200] #um
 names_splash = [
-    "Thibault Xavier, Davide Zuzio, Matthias Averseng, \nand J-L Estivalezes. Toward direct numerical \nsimulation of high speed droplet impact."
+    "Thibault Xavier, Davide Zuzio, Matthias Averseng, \nand J-L Estivalezes. Toward direct numerical \nsimulation of high speed droplet impact.",
+    "NZ Mehdizadeh, S Chandra, and J Mostaghimi. \nSplashing of a small droplet impinging \non a solid surface at high velocity",
+    "NZ Mehdizadeh, S Chandra, and J Mostaghimi. \nSplashing of a small droplet impinging \non a solid surface at high velocity",
+    "Xiaodan Lin, Qiao Wang, Yingchun Wu, Longchao \nYao, Zhiliang Xue, and Xuecheng Wu. 3d \nvisualization of droplet splash dynamics with high-speed digital holography.",
+    "KK Haller, Y Ventikos, D Poulikakos, and P \nMonkewitz. Computational study of high-speed\n liquid droplet impact."
 ]
 
 # velocities, diameters, and studies which recorded full rebounding behavior - FOR MOST STUDIES, WE DON'T HAVE ENOUGH INFO TO TELL FULL REBOUND FROM DEPOSITION
@@ -28,10 +32,15 @@ names_fr = [
 """
 
 # velocities, diameters, and studies which recorded deposition behavior
-vel_spr_ms = [1.0]
-dia_spr_um = [2.28e3]
+vel_spr_ms = [1.0, 10, 0.277, 1.417, 50, 16.9]
+dia_spr_um = [2.28e3, 550, 2e3, 2e3, 200, 49.5]
 names_spr = [
-    "Yokoi et al - Numerical studies of the \n influence of the dynamic contact angle \non a droplet impacting on a dry surface"
+    "Yokoi et al - Numerical studies of the \n influence of the dynamic contact angle \non a droplet impacting on a dry surface", 
+    "NZ Mehdizadeh, S Chandra, and J Mostaghimi. \nSplashing of a small droplet impinging \non a solid surface at high velocity",
+    "G Chaidron, A Soucemarianadin, and P Attan´e. \nStudy of the impact of drops onto solid surfaces",
+    "G Chaidron, A Soucemarianadin, and P Attan´e. \nStudy of the impact of drops onto solid surfaces",
+    "Tomoki Kondo and Keita Ando. Simulation of \nhigh-speed droplet impact against a dry/wet \nrigid wall for understanding the mechanism of liquid jet cleaning",
+    "Claas Willem Visser, Philipp Erhard Frommhold, \nSander Wildeman, Robert Mettin, Detlef Lohse, \nand Chao Sun. Dynamics of high-speed micro-drop impact"
 ]
 
 
